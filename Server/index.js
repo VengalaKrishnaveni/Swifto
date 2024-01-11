@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose')
 const UserModel = require('./models/Users')
+const BookingModel = require('./models/Booking')
 const ProviderModel = require('./models/Providers')
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
@@ -40,6 +41,12 @@ app.post('/signup', async (req, res)=>{
     res.json(user)
 })
 
+app.post('/book', async (req, res)=>{
+    const booking = req.body
+    const newBooking = new BookingModel(booking)
+    await newBooking.save()
+    res.json(booking)
+})
 
 app.get('/providers', async (req, res)=>{
     await ProviderModel.find({})
