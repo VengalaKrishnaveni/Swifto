@@ -32,26 +32,38 @@ const Login = () => {
         }
 
     return (
-        <div>
-               <form className="form" onSubmit={LoginUser}>
-                <div className="form_details">Login</div> 
-                 
-                    <input 
-                        placeholder="Username" 
-                        className="input" 
-                        type="text" 
-                        onChange={(event)=>{setUsername(event.target.value)}}
-                        />
-                    <input 
-                        placeholder="Password" 
-                        className="input" 
-                        type="password" 
-                        onChange={(event) => setPassword(event.target.value)} />
-                    <button className='btn' type='submit'>
-                            Login
-                    </button>
-                </form>
+        <div className="main-container">
+            <div className="service-provider-container"></div>
+            <div className="customer-container"></div>
+            <div className="name"><h2>SWIFTO</h2>Your reliable partner in roadside vehicle assistance.</div>
         </div>
+        // <div>
+        //     <div className="main-container">
+        //         <div className="service-provider-container">hello</div>
+        //         <div className="customer-container">hiii</div>
+        //     </div>
+        //     <div className="login-container">
+        //         <form className="form" onSubmit={LoginUser}>
+        //         <div className="form_details">Login</div> 
+                 
+        //             <input 
+        //                 placeholder="Username" 
+        //                 className="input" 
+        //                 type="text" 
+        //                 onChange={(event)=>{setUsername(event.target.value)}}
+        //                 />
+        //             <input 
+        //                 placeholder="Password" 
+        //                 className="input" 
+        //                 type="password" 
+        //                 onChange={(event) => setPassword(event.target.value)} />
+        //             <button className='btn' type='submit'>
+        //                     Login
+        //             </button>
+        //         </form>
+        //     </div>
+               
+        // </div>
     );
 };
 
