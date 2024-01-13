@@ -1,14 +1,15 @@
 import '../assets/Home.css'
 import {Link} from 'react-router-dom'
-import {useState} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Home = () => {
+
     return (
         <div>
         <div className="Home"> 
            <div className='Buttons'>
-                <Link to="/Login">
+                <Link to="/RegistrationLanding">
                 <button className="cssbuttons-io-button">
                 Get started
                 <div className="icon">
@@ -46,9 +47,9 @@ const Home = () => {
                 </div>
             </button>
             </Link>
-            <Link to="/register">
+            <Link to="/Login">
             <button className="cssbuttons-io-button">
-            For Providers
+            Access Account
             <div className="icon">
                 <svg
                 height="24"
@@ -98,7 +99,7 @@ const Home = () => {
                 <div className="call-out-section">
                     <div>
                         <h1>Join Us</h1>
-                        <h2>Sign Up Here for Swift Solutions<Link to="/Register"> Sign Up</Link></h2>
+                        <h2>Sign Up Here for Swift Solutions<Link to="/RegistrationLanding"> Sign Up</Link></h2>
                     </div>
                 </div>
                 </div>
