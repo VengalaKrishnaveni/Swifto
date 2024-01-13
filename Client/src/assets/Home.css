@@ -89,12 +89,13 @@ body{
   display: flex;
   min-height: 100vh;
   position: relative;
+  margin: 0px 30px;
 }
 
 .service-provider-container {
   background-image: url('/workspaces/Swifto/Client/src/assets/service-provider-container.png');
   /* height: 100vh; */
-  width: 92vh;
+  width: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,7 +103,7 @@ body{
 .customer-container {
   background-image: url('/workspaces/Swifto/Client/src/assets/customer-container.png');
   /* height: 100vh; */
-  width: 99.2vh;
+  width: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -147,10 +148,11 @@ text-shadow: 3px 6px 9px rgba(221, 238, 255, 0.44);
 
 
 .top-sticks-left{
+  margin-top: 60px;
   writing-mode: vertical-rl; 
   text-orientation: upright; 
-  font-size: 100px;
-  padding: 50px;
+  font-size: 80px;
+  padding: 50px 40px;
   -webkit-animation: swifto 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: swifto 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -160,7 +162,7 @@ text-shadow: 3px 6px 9px rgba(221, 238, 255, 0.44);
   display:flex;
   justify-content: center;
   align-items:center;
-  padding: 50px;
+  padding: 40px;
   margin: 120px;
   background-color: whitesmoke;
   border-radius: 30% 70% 38% 62% / 67% 61% 39% 33% 
@@ -174,6 +176,7 @@ text-shadow: 3px 6px 9px rgba(221, 238, 255, 0.44);
 
 .Title h2, .info-section h2, .call-out-section h2{
   font-family: 'Inter', sans-serif;
+  font-size: 25px;
 }
 
 .service-section-card{
