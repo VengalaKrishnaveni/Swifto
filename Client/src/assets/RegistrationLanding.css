@@ -1,0 +1,70 @@
+/* Registration.css */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .welcome-logo-flex-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registration-content {
+    text-align: center;
+  }
+
+  .registration-content h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    color: red;
+    text-shadow: 3px 6px 9px rgba(17, 17, 17, 0.44);
+  }
+  
+  .registration-content p{
+    font-family: Inter;
+    font-size: 20px;
+  }
+
+
+  .registration-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+
+  .provider-registration-img, .customer-registration-img{
+    position: relative;
+  }
+
+  .registration-links img{
+    width: 700px;
+    height: 500px;
+  }
+  
+  .registration-link {
+    width: 50%;
+    margin: 10px;
+    padding: 14px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Della Respira', serif;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .registration-link:hover {
+    background-color: black
+  }
+  

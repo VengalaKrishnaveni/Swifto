@@ -1,0 +1,52 @@
+/* CustomerRegistration.css */
+.customer-registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5eced;
+}
+
+.customer-registration-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.registration-form-details {
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration-button {
+    background-color: #4faeb2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration-button:hover {
+    background-color: #3798a4;
+}
+
+/* Add any additional styles as needed */

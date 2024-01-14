@@ -1,0 +1,59 @@
+.provider-registration-form {
+    /* Add styles for the form */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* ProviderRegistration.css */
+.provider-registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5eced;
+}
+
+.provider-registration-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-details {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Salsa', cursive;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #4faeb2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #3798a4;
+}
+
+/* Add any additional styles as needed */
